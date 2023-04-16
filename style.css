@@ -1,0 +1,81 @@
+@font-face {
+    font-family: miFuente;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+body{
+    background: azure;
+    font-family: miFuente;
+}
+
+.contenedor{
+    box-shadow: 0 0 3px rgba(0,0,0,.9);
+    width:300px;
+    max-width: 300px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.titulo{
+    text-align: center;
+    background-image: url('../img/fondoLetras.jpg');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: auto; 
+    box-shadow: 1px 2px 1px .5px black;
+}
+
+.overlay-titulo{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: chartreuse;
+    text-shadow: 0px 2px 1px #000;
+}
+
+.container-text-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtTexto{
+    width: 250px;
+    max-width: 250px;
+    height: 100px;
+    max-height: 100px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 1px 1px black;
+    padding: 10px;
+}
+
+.container-busqueda{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.txtPalabra{
+    padding: 5px;
+    font-size: 15px;
+    width: 190px;
+}
+
+.btnBuscar{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.resultados{
+    text-align: center;
+    padding: 12px;
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+}

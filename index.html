@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coincidencias</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <div class="overlay-titulo">
+                <p class="titulo-word">Busca Palabras <span class="icon-search"></span></p>
+            </div>
+        </div>
+        <div class="container-text-area">
+            <textarea class="txtTexto" id="txtTexto" placeholder="Ingresa el texto a examinar"></textarea>
+        </div>
+        <div class="container-busqueda">
+            <input type="text" class="txtPalabra" id="txtPalabra" placeholder="Palabra a Buscar">
+            <input type="button" value="search" class="icon-search btnBuscar" id="btnBuscar">
+        </div>
+        <div class="resultados" id="resultados">
+            <span id="mensaje"></span>
+        </div>
+ 
+    </div>   
+</body>
+</html>
